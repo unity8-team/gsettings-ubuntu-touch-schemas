@@ -7,5 +7,12 @@
 	Whether "flight mode" is enabled. In flight mode, no network traffic will happen on the device.
       </_description>
     </key>
+    <key name="gps" type="b">
+      <default>true</default>
+      <_summary>Enable the GPS</_summary>
+      <_description>
+	If present, whether the GPS hardware in this device is enabled.
+      </_description>
+    </key>
   </schema>
 </schemalist>
