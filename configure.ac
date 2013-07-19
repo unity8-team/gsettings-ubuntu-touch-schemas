@@ -2,7 +2,7 @@ AC_PREREQ(2.53)
 AC_INIT([gsettings-ubuntu-touch-schemas], [0.0.1],
         [http://bugs.launchpad.net/gsettings-ubuntu-touch-schemas/+filebug])
 AC_CONFIG_SRCDIR(schemas/com.ubuntu.touch.network.gschema.xml.in.in)
-AM_INIT_AUTOMAKE([1.9 foreign no-dist-gzip dist-xz])
+AM_INIT_AUTOMAKE([1.9 foreign])
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 AC_CONFIG_MACRO_DIR([m4])
 
