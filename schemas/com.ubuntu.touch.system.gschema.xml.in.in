@@ -1,0 +1,11 @@
+<schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
+    <schema id="com.ubuntu.touch.system" path="/com/ubuntu/touch/system/">
+    <key name="rotation-lock" type="b">
+      <default>false</default>
+      <_summary>Lock rotation</_summary>
+      <_description>
+	Whether the device should change orientation when it is rotated.
+      </_description>
+    </key>
+  </schema>
+</schemalist>
