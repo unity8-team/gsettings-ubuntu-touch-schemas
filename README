@@ -1,0 +1,37 @@
+gsettings-ubuntu-touch-schemas
+==============================
+
+gsettings-ubuntu-touch-schemas contains a collection of GSettings schemas for
+settings shared by various components of an Ubuntu environment.
+
+You may download updates to the package from:
+
+   http://launchpad.net/gsettings-ubuntu-touch-schamas
+
+To discuss gsettings-ubuntu-touch-schemas, you may use the ubuntu-phone
+mailing list:
+
+  https://launchpad.net/~ubuntu-phone
+
+
+How to report bugs
+==================
+
+Bugs should be reported to the Launchpad bug tracking system:
+
+   https://bugs.launchpad.net/gsettings-ubuntu-touch-schemas/trunk/+filebug
+
+You will need to create an account for yourself.
+
+How to contribute
+=================
+
+Branch the code using the `bzr' Version Control system:
+
+    bzr branch lp:gsettings-ubuntu-touch-schemas
+
+make your changes, push to a branch in your personal namespace on Launchpad
+
+    bzr push lp:~yourusername/gsettings-ubuntu-touch-schemas/myfix
+
+and then propose a merge on the Launchpad web UI.

@@ -1,0 +1,11 @@
+<schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
+    <schema id="com.ubuntu.touch.network" path="/com/ubuntu/touch/network/">
+    <key name="flight-mode" type="b">
+      <default>false</default>
+      <_summary>Enable flight mode</_summary>
+      <_description>
+	Whether "flight mode" is enabled. In flight mode, no network traffic will happen on the device.
+      </_description>
+    </key>
+  </schema>
+</schemalist>
