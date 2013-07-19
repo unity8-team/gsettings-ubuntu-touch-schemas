@@ -1,0 +1,5 @@
+gsettings-ubuntu-touch-schemas (0.0.1-0ubuntu1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Iain Lane <iain.lane@canonical.com>  Fri, 19 Jul 2013 13:00:06 +0100
