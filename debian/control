@@ -14,7 +14,7 @@ Homepage: https://launchpad.net/gsettings-ubuntu-touch-schemas
 # code again.
 Vcs-Bzr: https://code.launchpad.net/~system-settings-touch/gsettings-ubuntu-touch-schemas/trunk
 
-Package: gsettings-desktop-schemas
+Package: gsettings-ubuntu-touch-schemas
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends},
