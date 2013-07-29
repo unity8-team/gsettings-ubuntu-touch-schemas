@@ -1,0 +1,19 @@
+<schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
+    <schema id="com.ubuntu.touch.sound" path="/com/ubuntu/touch/sound/">
+    <key name="silent-mode" type="b">
+      <default>false</default>
+      <_summary>Silent mode</_summary>
+      <_description>Whether silent mode is active or not.</_description>
+    </key>
+    <key name="incoming-call-sound" type="s">
+      <default>"/usr/share/sounds/ubuntu/stereo/phone-incoming-call.ogg"</default>
+      <_summary>Ringtone sound for the phone application.</_summary>
+      <_description>This sound file is played, on incoming calls, by the phone application.</_description>
+    </key>
+    <key name="incoming-message-sound" type="s">
+      <default>"/usr/share/sounds/ubuntu/stereo/message-new-instant.ogg"</default>
+      <_summary>Incoming message sound for the phone application.</_summary>
+      <_description>This sound file is played, on incoming messages, by the phone application.</_description>
+    </key>
+  </schema>
+</schemalist>
