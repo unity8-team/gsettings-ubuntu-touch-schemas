@@ -1,3 +1,10 @@
+gsettings-ubuntu-touch-schemas (0.0.1+13.10.20130730-0ubuntu2) saucy; urgency=low
+
+  * Change the default sounds for calls and messages, depends on 
+    ubuntu-touch-sounds so we are sure users get the files with the defaults
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Mon, 14 Oct 2013 16:36:03 +0200
+
 gsettings-ubuntu-touch-schemas (0.0.1+13.10.20130730-0ubuntu1) saucy; urgency=low
 
   [ Sebastien Bacher ]
