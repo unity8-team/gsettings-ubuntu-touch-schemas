@@ -19,7 +19,6 @@ Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${shlibs:Depends},
-         ubuntu-touch-sounds,
 Description: GSettings deskop-wide schemas for Ubuntu Touch
  gsettings-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of an Ubuntu Touch environment.
