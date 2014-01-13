@@ -9,6 +9,8 @@ AC_CONFIG_MACRO_DIR([m4])
 AM_MAINTAINER_MODE([enable])
 
 AC_PROG_SED
+AC_PROG_LN_S
+AC_PROG_MKDIR_P
 
 GIO_MIN_VERSION=[2.31.0]
 PKG_CHECK_EXISTS([gio-2.0 >= $GIO_MIN_VERSION],[],
@@ -22,6 +24,7 @@ IT_PROG_INTLTOOL([0.40.0])
 
 AC_OUTPUT([
 Makefile
+accountsservice/Makefile
 schemas/Makefile
 po/Makefile.in
 ])
