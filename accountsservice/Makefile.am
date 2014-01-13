@@ -14,7 +14,5 @@ install-exec-hook:
 	done
 
 CLEANFILES =						\
-	$(gsettings_SCHEMAS)			\
-	$(desktop_gschemas_in)			\
-	*.gschema.valid
+	$(accountsservice_schemas)
 
