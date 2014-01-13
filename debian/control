@@ -23,3 +23,14 @@ Depends: ${misc:Depends},
 Description: GSettings deskop-wide schemas for Ubuntu Touch
  gsettings-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of an Ubuntu Touch environment.
+
+Package: accountsservice-ubuntu-touch-schemas
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         accountsservice
+Description: AccountsService schemas for Ubuntu Touch
+ accountsservice-ubuntu-touch-schemas contains a collection of AccountsService
+ vendor extension schemas used by various components of an Ubuntu Touch
+ environment.
