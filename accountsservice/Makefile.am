@@ -1,5 +1,6 @@
 accountsservice_schemas = \
-	com.ubuntu.touch.AccountsService.SecurityPrivacy.xml
+	com.ubuntu.touch.AccountsService.SecurityPrivacy.xml \
+	com.ubuntu.touch.AccountsService.Sound.xml
 
 EXTRA_DIST =				\
 	$(accountsservice_schemas)	
