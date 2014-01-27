@@ -7,5 +7,13 @@
 	Whether the device should change orientation when it is rotated.
       </_description>
     </key>
+    <key name="auto-brightness" type="b">
+      <default>false</default>
+      <_summary>Automatic brightness</_summary>
+      <_description>
+    Whether the device should adjust brightness automatically based on ambient
+    light levels.
+      </_description>
+    </key>
   </schema>
 </schemalist>
