@@ -1,3 +1,15 @@
+gsettings-ubuntu-touch-schemas (0.0.1+14.04.20140130.1-0ubuntu1) trusty; urgency=low
+
+  [ Iain Lane ]
+  * Move AccountsService vendor extension schema from ubuntu-system-
+    settings.
+  * Add the Sound schema (LP: #1265528). (LP: #1265528)
+  * Add a key for the automatic brightness state (LP: #1273174)
+  * Use current ubuntu-system-settings version to Break/Replace on as
+    this is the version that will lose the AS schemas
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 30 Jan 2014 16:44:57 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.1+13.10.20130730-0ubuntu2) saucy; urgency=low
 
   * Change the default sounds for calls and messages, depends on 
