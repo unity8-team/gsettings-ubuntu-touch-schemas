@@ -1,0 +1,11 @@
+<schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
+    <schema id="com.ubuntu.desktop" path="/com/ubuntu/desktop/">
+        <key name="scale-factor" type="a{si}">
+        <_summary>Per monitor scale factor</_summary>
+        <default>{}</default>
+        <_description>
+          Per monitor scale factor for fonts and desktop components.
+        </_description>
+        </key>
+    </schema>
+</schemalist>
