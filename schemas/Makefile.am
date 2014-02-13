@@ -1,7 +1,8 @@
 desktop_gschemas_in_in = \ 
 	com.ubuntu.touch.network.gschema.xml.in.in \
 	com.ubuntu.touch.sound.gschema.xml.in.in   \
-	com.ubuntu.touch.system.gschema.xml.in.in
+	com.ubuntu.touch.system.gschema.xml.in.in  \
+	com.ubuntu.desktop.gschema.xml.in.in
 
 @INTLTOOL_XML_NOMERGE_RULE@
 
