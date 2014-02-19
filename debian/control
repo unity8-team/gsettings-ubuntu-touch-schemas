@@ -44,6 +44,8 @@ Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          ubuntu-touch-sounds,
+Breaks: gsettings-ubuntu-touch-schemas (<= 0.0.1+14.04.20140130.1-0ubuntu1)
+Replaces: gsettings-ubuntu-touch-schemas (<= 0.0.1+14.04.20140130.1-0ubuntu1)
 Description: GSettings deskop-wide schemas for Ubuntu Touch
  gsettings-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of an Ubuntu Touch environment.
@@ -54,8 +56,10 @@ Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          accountsservice
-Breaks: ubuntu-system-settings (<= 0.1+14.04.20140130-0ubuntu1)
-Replaces: ubuntu-system-settings (<= 0.1+14.04.20140130-0ubuntu1)
+Breaks: ubuntu-system-settings (<= 0.1+14.04.20140130-0ubuntu1),
+        accountsservice-ubuntu-touch-schemas (<= 0.0.1+14.04.20140130.1-0ubuntu1)
+Replaces: ubuntu-system-settings (<= 0.1+14.04.20140130-0ubuntu1),
+          accountsservice-ubuntu-touch-schemas (<= 0.0.1+14.04.20140130.1-0ubuntu1)
 Description: AccountsService schemas for Ubuntu Touch
  accountsservice-ubuntu-touch-schemas contains a collection of AccountsService
  vendor extension schemas used by various components of an Ubuntu Touch
