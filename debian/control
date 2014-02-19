@@ -17,6 +17,30 @@ Vcs-Bzr: https://code.launchpad.net/~system-settings-touch/gsettings-ubuntu-touc
 Package: gsettings-ubuntu-touch-schemas
 Architecture: all
 Multi-Arch: foreign
+Section: oldlibs
+Priority: extra
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         gsettings-ubuntu-schemas (= ${binary:Version})
+Description: Transitional package for gsettings-ubuntu-schemas
+ This is a transitional package for clean upgrades. You can safely remove it.
+
+Package: accountsservice-ubuntu-touch-schemas
+Architecture: all
+Multi-Arch: foreign
+Section: oldlibs
+Priority: extra
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         accountsservice-ubuntu-schemas (= ${binary:Version})
+Breaks: ubuntu-system-settings (<= 0.1+14.04.20140130-0ubuntu1)
+Replaces: ubuntu-system-settings (<= 0.1+14.04.20140130-0ubuntu1)
+Description: Transitional package for accountsservice-ubuntu-schemas
+ This is a transitional package for clean upgrades. You can safely remove it.
+
+Package: gsettings-ubuntu-schemas
+Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          ubuntu-touch-sounds,
@@ -24,7 +48,7 @@ Description: GSettings deskop-wide schemas for Ubuntu Touch
  gsettings-desktop-schemas contains a collection of GSettings schemas for
  settings shared by various components of an Ubuntu Touch environment.
 
-Package: accountsservice-ubuntu-touch-schemas
+Package: accountsservice-ubuntu-schemas
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends},
