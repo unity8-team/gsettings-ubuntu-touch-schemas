@@ -43,7 +43,6 @@ Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${shlibs:Depends},
-         ubuntu-touch-sounds,
 Breaks: gsettings-ubuntu-touch-schemas (<= 0.0.1+14.04.20140130.1-0ubuntu1)
 Replaces: gsettings-ubuntu-touch-schemas (<= 0.0.1+14.04.20140130.1-0ubuntu1)
 Description: GSettings deskop-wide schemas for Ubuntu
