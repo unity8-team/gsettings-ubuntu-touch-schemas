@@ -3,3 +3,4 @@
 # Please keep this file sorted alphabetically.
 schemas/com.ubuntu.touch.network.gschema.xml.in
 schemas/com.ubuntu.touch.system.gschema.xml.in
+schemas/com.ubuntu.user-interface.gschema.xml.in
