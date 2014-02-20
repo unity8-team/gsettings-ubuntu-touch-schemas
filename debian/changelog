@@ -1,3 +1,14 @@
+gsettings-ubuntu-touch-schemas (0.0.1+14.04.20140220-0ubuntu1) trusty; urgency=low
+
+  [ Iain Lane ]
+  * Rename *-touch-schemas to *-schemas
+
+  [ Eleni Maria Stea ]
+  * new gsetting (scale factor for desktop components) and schema for
+    unity 7 and unity 8
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 20 Feb 2014 10:40:56 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.1+14.04.20140130.1-0ubuntu1) trusty; urgency=low
 
   [ Iain Lane ]
