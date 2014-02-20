@@ -1,3 +1,11 @@
+gsettings-ubuntu-touch-schemas (0.0.1+14.04.20140220.1-0ubuntu1) trusty; urgency=low
+
+  [ Iain Lane ]
+  * Don't depend on ubuntu-touch-sounds, schemas aren't for pulling in
+    default values
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 20 Feb 2014 16:18:56 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.1+14.04.20140220-0ubuntu1) trusty; urgency=low
 
   [ Iain Lane ]
