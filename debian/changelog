@@ -1,3 +1,12 @@
+gsettings-ubuntu-touch-schemas (0.0.1+14.04.20140224-0ubuntu1) trusty; urgency=low
+
+  [ Sebastien Bacher ]
+  * List "allow-amplified-volume" there rather than in indicator-sound,
+    that way we avoid having unity-control-center depending on the
+    indicator only to use that one key
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 24 Feb 2014 14:30:29 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.1+14.04.20140220.1-0ubuntu1) trusty; urgency=low
 
   [ Iain Lane ]
