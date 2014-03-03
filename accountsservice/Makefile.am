@@ -1,3 +1,9 @@
+pkladir = $(localstatedir)/lib/polkit-1/localauthority/10-vendor.d
+dist_pkla_DATA = 50-com.ubuntu.touch.AccountsService.pkla
+
+policydir = $(datadir)/polkit-1/actions
+dist_policy_DATA = com.ubuntu.touch.AccountsService.policy
+
 accountsservice_schemas = \
 	com.ubuntu.touch.AccountsService.SecurityPrivacy.xml \
 	com.ubuntu.touch.AccountsService.Sound.xml

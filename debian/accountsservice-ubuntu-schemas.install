@@ -1,2 +1,4 @@
 usr/share/dbus-1
 usr/share/accountsservice
+usr/share/polkit-1
+var/lib/polkit-1
