@@ -3,6 +3,9 @@
 
     <annotation name="org.freedesktop.Accounts.VendorExtension" value="true"/>
 
+    <annotation name="org.freedesktop.Accounts.Authentication.ReadAny"
+                value="com.ubuntu.touch.AccountsService.GreeterReadAny"/>
+
     <property name="StatsWelcomeScreen" type="b" access="readwrite">
       <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
     </property>
