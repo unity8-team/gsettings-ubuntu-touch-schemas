@@ -20,3 +20,7 @@ install-data-hook:
 		$(LN_S) ../../dbus-1/interfaces/$$file							\
              	$(DESTDIR)$(datadir)/accountsservice/interfaces;		\
 	done
+
+CLEANFILES =						\
+	$(accountsservice_schemas)
+
