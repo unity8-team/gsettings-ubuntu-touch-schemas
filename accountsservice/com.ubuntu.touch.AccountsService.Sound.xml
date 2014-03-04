@@ -3,22 +3,7 @@
 
         <annotation name="org.freedesktop.Accounts.VendorExtension" value="true"/>
 
-        <annotation name="org.freedesktop.Accounts.Authentication.ChangeAny"
-                    value="com.ubuntu.touch.AccountsService.GreeterChangeAny"/>
-
-        <annotation name="org.freedesktop.Accounts.Authentication.ReadAny"
-                    value="com.ubuntu.touch.AccountsService.GreeterReadAny"/>
-
-        <property name="Volume" type="d" access="readwrite">
-            <annotation name="org.freedesktop.Accounts.DefaultValue" value="-1.0"/>
-        </property>
-
         <!-- Muted is all sound, SilentMode is only non-user-initiated sounds -->
-        <property name="Muted" type="b" access="readwrite">
-            <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
-        </property>
-
-        <!-- See above comment -->
         <property name="SilentMode" type="b" access="readwrite">
             <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
         </property>
