@@ -1,13 +1,13 @@
 [Allow greeter to set fields]
 Identity=unix-user:lightdm
-Action=com.ubuntu.touch.AccountsService.GreeterChangeAny
+Action=com.ubuntu.AccountsService.GreeterChangeAny
 ResultAny=no
 ResultInactive=no
 ResultActive=yes
 
 [Allow greeter to read fields]
 Identity=unix-user:lightdm
-Action=com.ubuntu.touch.AccountsService.GreeterReadAny
+Action=com.ubuntu.AccountsService.GreeterReadAny
 ResultAny=yes
 ResultInactive=yes
 ResultActive=yes
