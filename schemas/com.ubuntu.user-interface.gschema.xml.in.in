@@ -15,5 +15,13 @@
         exactly equal to 'scale factor' number of pixels.
         </_description>
         </key>
+        <key name="selected-display" type="s">
+        <_summary>Selected display</_summary>
+        <default>""</default>
+        <_description>
+        The name of the display whose settings will be used to scale the 
+        desktop apps.
+        </_description>
+        </key>
     </schema>
 </schemalist>
