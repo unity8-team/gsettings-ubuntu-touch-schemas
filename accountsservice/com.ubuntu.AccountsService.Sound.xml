@@ -1,0 +1,22 @@
+<node>
+    <interface name="com.ubuntu.AccountsService.Sound">
+
+        <annotation name="org.freedesktop.Accounts.VendorExtension" value="true"/>
+
+        <annotation name="org.freedesktop.Accounts.Authentication.ChangeAny"
+                    value="com.ubuntu.AccountsService.GreeterChangeAny"/>
+
+        <annotation name="org.freedesktop.Accounts.Authentication.ReadAny"
+                    value="com.ubuntu.AccountsService.GreeterReadAny"/>
+
+        <property name="Volume" type="d" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="-1.0"/>
+        </property>
+
+        <!-- Muted is all sound, SilentMode is only non-user-initiated sounds -->
+        <property name="Muted" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
+        </property>
+
+    </interface>
+</node>

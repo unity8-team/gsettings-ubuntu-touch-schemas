@@ -3,6 +3,7 @@
 
         <annotation name="org.freedesktop.Accounts.VendorExtension" value="true"/>
 
+        <!-- Muted is all sound, SilentMode is only non-user-initiated sounds -->
         <property name="SilentMode" type="b" access="readwrite">
             <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
         </property>
