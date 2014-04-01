@@ -1,3 +1,14 @@
+gsettings-ubuntu-touch-schemas (0.0.1+14.04.20140401-0ubuntu1) trusty; urgency=low
+
+  [ Michael Terry ]
+  * Add Muted and Volume properties for sharing with the greeter. (LP:
+    #840777)
+
+  [ Ubuntu daily release ]
+  * New rebuild forced
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 01 Apr 2014 23:16:43 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.1+14.04.20140224-0ubuntu1) trusty; urgency=low
 
   [ Sebastien Bacher ]
