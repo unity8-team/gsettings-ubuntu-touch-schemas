@@ -15,5 +15,12 @@
         exactly equal to 'scale factor' number of pixels.
         </_description>
         </key>
+        <key name="max-scale-factor" type="i">
+        <_summary>Maximum per monitor scale factor</_summary>
+        <default>-1</default>
+        <_description>
+        The maximum usable value for scale-factor.
+        </_description>
+        </key>
     </schema>
 </schemalist>
