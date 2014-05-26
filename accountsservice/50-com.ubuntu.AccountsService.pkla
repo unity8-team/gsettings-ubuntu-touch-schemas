@@ -2,7 +2,7 @@
 Identity=unix-user:lightdm
 Action=com.ubuntu.AccountsService.GreeterChangeAny
 ResultAny=no
-ResultInactive=no
+ResultInactive=yes
 ResultActive=yes
 
 [Allow greeter to read fields]
