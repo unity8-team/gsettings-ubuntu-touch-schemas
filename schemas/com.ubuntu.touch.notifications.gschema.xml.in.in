@@ -1,0 +1,14 @@
+<schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
+    <schema id="com.ubuntu.touch.notifications" path="/com/ubuntu/touch/notifications/">
+		<key name="popup-blacklist" type="as">
+			<_summary>User blacklist of application notifications</_summary>
+			<default>[]</default>
+			<_description>
+				A list of applications that the user has blocked notifications from.
+				For applications that are installed via Click packaging the string is
+				the name of the package. For dpkg based applications the string is the
+				AppID of the application, or the desktop file name.
+			</_description>
+		</key>
+    </schema>
+</schemalist>
