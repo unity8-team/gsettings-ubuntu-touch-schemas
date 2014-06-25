@@ -27,6 +27,7 @@ Makefile
 accountsservice/Makefile
 schemas/Makefile
 po/Makefile.in
+upstart/Makefile
 ])
 
 dnl ---------------------------------------------------------------------------

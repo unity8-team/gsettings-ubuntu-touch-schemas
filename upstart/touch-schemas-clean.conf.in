@@ -1,0 +1,12 @@
+# When we rotate the logs (approximately daily) we also check to see
+# if we need to update any of the schemas to remove legacy applications
+# that have been removed.
+
+description "Remove any entries that are related to removed applications"
+
+start on :sys:rotate-logs
+
+task
+
+exec @pkgdatadir@/clean-schemas.py
+

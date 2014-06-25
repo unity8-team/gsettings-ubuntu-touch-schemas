@@ -1,4 +1,4 @@
-SUBDIRS = accountsservice schemas po
+SUBDIRS = accountsservice schemas po upstart
 
 EXTRA_DIST = autogen.sh
 
