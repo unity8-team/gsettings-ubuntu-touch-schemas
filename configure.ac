@@ -27,7 +27,7 @@ Makefile
 accountsservice/Makefile
 schemas/Makefile
 po/Makefile.in
-upstart/Makefile
+cleanup/Makefile
 ])
 
 dnl ---------------------------------------------------------------------------
