@@ -13,9 +13,9 @@ for package in clickdb.get_packages(False) :
 settings = Gio.Settings.new('com.ubuntu.touch.notifications')
 goodapps = []
 
-for appname in settings.get_strv('popup-blacklist') :
-	if not appname in pkgnames :
-		appinfo = Gio.DesktopAppInfo.new(appname + ".desktop")
+for appname in settings.get_value('popup-blacklist').unpack() :
+	if not appname[0] in pkgnames and appname[0] == appname[1] :
+		appinfo = Gio.DesktopAppInfo.new(appname[0] + ".desktop")
 		if not appinfo is None :
 			goodapps.append(appname)
 	else :
