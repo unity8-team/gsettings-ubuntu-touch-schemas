@@ -1,0 +1,4 @@
+Pattern: ${home}/.cache/gsettings-ubuntu-schemas/packages/${id}.json
+Exec: @pkgdatadir@/clean-schemas.py
+User-Level: yes
+Hook-Name: apparmor
