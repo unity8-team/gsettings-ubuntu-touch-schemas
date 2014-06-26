@@ -2,9 +2,9 @@ Source: gsettings-ubuntu-touch-schemas
 Section: gnome
 Priority: optional
 Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
-Build-Depends: debhelper (>= 9),
+Build-Depends: click-dev,
+               debhelper (>= 9),
                dh-autoreconf,
-               dh-click,
                gnome-common,
                intltool (>= 0.40.0),
                libglib2.0-dev (>= 2.13.0),
