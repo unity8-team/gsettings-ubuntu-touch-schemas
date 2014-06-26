@@ -1,7 +1,9 @@
 
-all: $(top_srcdir)/debian/touch-schemas-clean.click-hook 
+CLICK_HOOK_OUTPUT=$(top_srcdir)/debian/gsettings-ubuntu-schemas.touch-schemas-clean.click-hook 
 
-$(top_srcdir)/debian/touch-schemas-clean.click-hook: touch-schemas-clean.click-hook.in Makefile
+all: $(CLICK_HOOK_OUTPUT)
+
+$(CLICK_HOOK_OUTPUT): touch-schemas-clean.click-hook.in Makefile
 	$(AM_V_GEN) $(SED) -e 's^\@pkgdatadir\@^$(pkgdatadir)^g' < $< > $@
 
 %.conf: %.conf.in Makefile
@@ -23,5 +25,5 @@ EXTRA_DIST = \
 	$(upstart_scripts_SCRIPTS)
 
 CLEANFILES = \
-	$(top_srcdir)/debian/touch-schemas-clean.click-hook \
+	$(CLICK_HOOK_OUTPUT) \
 	$(upstart_jobs_DATA)
