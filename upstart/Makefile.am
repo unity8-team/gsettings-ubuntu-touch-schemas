@@ -6,7 +6,7 @@ upstart_jobs_in = \
 	touch-schemas-clean.conf.in
 
 upstart_jobs_DATA = $(upstart_jobs_in:.conf.in=.conf)
-upstart_jobsdir = $(datadir)/upstart/session
+upstart_jobsdir = $(datadir)/upstart/sessions
 
 upstart_scripts_SCRIPTS = \
 	clean-schemas.py
