@@ -21,11 +21,11 @@ settings = Gio.Settings.new('com.ubuntu.touch.notifications')
 goodapps = GLib.VariantBuilder.new(GLib.VariantType.new("a(ss)"))
 
 for appname in settings.get_value('popup-blacklist').unpack() :
-	if not appname[0] in pkgnames and appname[0] == appname[1] :
+	if appname[0] in pkgnames :
+		goodapps.add_value(tup2variant(appname))
+	elif (appname[0] == appname[1]) :
 		appinfo = Gio.DesktopAppInfo.new(appname[0] + ".desktop")
 		if not appinfo is None :
 			goodapps.add_value(tup2variant(appname))
-	else :
-		goodapps.add_value(tup2variant(appname))
 
 settings.set_value('popup-blacklist', goodapps.end())
