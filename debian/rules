@@ -5,7 +5,10 @@
 #export DH_VERBOSE=1
 
 %:
-	dh $@  --with autoreconf --fail-missing
+	dh $@  --with autoreconf,click --fail-missing
 
 override_dh_autoreconf:
 	dh_autoreconf -- ./autogen.sh
+
+override_dh_click:
+	dh_click --name touch-schemas-clean
