@@ -6,7 +6,7 @@
     <annotation name="org.freedesktop.Accounts.Authentication.ReadAny"
                 value="com.ubuntu.AccountsService.GreeterReadAny"/>
 
-    <!-- 0: Normal password prompt (optimized for keyboards)
+    <!-- 0: Keyboard password prompt (traditional entry)
          1: Numeric password prompt (like a PIN pad) -->
     <property name="PasswordDisplayHint" type="i" access="readwrite">
       <annotation name="org.freedesktop.Accounts.DefaultValue" value="0"/>
