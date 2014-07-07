@@ -15,5 +15,25 @@
       <_summary>Incoming message sound for the phone application.</_summary>
       <_description>This sound file is played, on incoming messages, by the phone application.</_description>
     </key>
+    <key name="incoming-message-vibrate" type="b">
+      <default>true</default>
+      <_summary>Whether vibration when new messages arrive is active or not</_summary>
+      <_description></_description>
+    </key>
+    <key name="incoming-message-vibrate-silent-mode" type="b">
+      <default>true</default>
+      <_summary>Whether vibration when new messages arrive in silent mode is active or not</_summary>
+      <_description></_description>
+    </key>
+    <key name="incoming-call-vibrate" type="b">
+      <default>true</default>
+      <_summary>Whether vibration when new calls arrive is active or not</_summary>
+      <_description></_description>
+    </key>
+    <key name="incoming-call-vibrate-silent-mode" type="b">
+      <default>true</default>
+      <_summary>Whether vibration when new calls arrive in silent mode is active or not</_summary>
+      <_description></_description>
+    </key>
   </schema>
 </schemalist>

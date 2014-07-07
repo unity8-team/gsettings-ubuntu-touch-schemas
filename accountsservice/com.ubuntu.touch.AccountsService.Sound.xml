@@ -18,5 +18,21 @@
                 value="/usr/share/sounds/ubuntu/notifications/Xylo.ogg"/>
         </property>
 
+        <property name="IncomingCallVibrate" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+        </property>
+
+        <property name="IncomingCallVibrateSilentMode" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+        </property>
+
+        <property name="IncomingMessageVibrate" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+        </property>
+
+        <property name="IncomingMessageVibrateSilentMode" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+        </property>
+
     </interface>
 </node>
