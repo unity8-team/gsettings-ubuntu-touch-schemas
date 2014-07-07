@@ -17,23 +17,23 @@
     </key>
     <key name="incoming-message-vibrate" type="b">
       <default>true</default>
-      <_summary>Whether vibration when new messages arrive is active or not</_summary>
-      <_description></_description>
+      <_summary>Whether vibration is enabled when new messages arrive or not.</_summary>
+      <_description>This option is used to enable/disable vibration when new messages arrive.</_description>
     </key>
     <key name="incoming-message-vibrate-silent-mode" type="b">
       <default>true</default>
-      <_summary>Whether vibration when new messages arrive in silent mode is active or not</_summary>
-      <_description></_description>
+      <_summary>Whether vibration is enabled when new messages arrive in silent mode or not.</_summary>
+      <_description>This option is used to enable vibration when new messages arrive even when silent mode is active.</_description>
     </key>
     <key name="incoming-call-vibrate" type="b">
       <default>true</default>
-      <_summary>Whether vibration when new calls arrive is active or not</_summary>
-      <_description></_description>
+      <_summary>Whether vibration is enabled when new calls arrive or not.</_summary>
+      <_description>This option is used to enable/disable vibration when new calls arrive.</_description>
     </key>
     <key name="incoming-call-vibrate-silent-mode" type="b">
       <default>true</default>
-      <_summary>Whether vibration when new calls arrive in silent mode is active or not</_summary>
-      <_description></_description>
+      <_summary>Whether vibration is enabled when new calls arrive in silent mode or not.</_summary>
+      <_description>This option is used to enable vibration when new calls arrive even when silent mode is active.</_description>
     </key>
   </schema>
 </schemalist>
