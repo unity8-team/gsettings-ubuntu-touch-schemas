@@ -1,0 +1,16 @@
+<node>
+  <interface name="com.ubuntu.AccountsService.SecurityPrivacy">
+
+    <annotation name="org.freedesktop.Accounts.VendorExtension" value="true"/>
+
+    <annotation name="org.freedesktop.Accounts.Authentication.ReadAny"
+                value="com.ubuntu.AccountsService.GreeterReadAny"/>
+
+    <!-- 0: Keyboard password prompt (traditional entry)
+         1: Numeric password prompt (like a PIN pad) -->
+    <property name="PasswordDisplayHint" type="i" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="0"/>
+    </property>
+
+  </interface>
+</node>
