@@ -22,6 +22,3 @@ install-data-hook:
              	$(DESTDIR)$(datadir)/accountsservice/interfaces;		\
 	done
 
-CLEANFILES =						\
-	$(accountsservice_schemas)
-
