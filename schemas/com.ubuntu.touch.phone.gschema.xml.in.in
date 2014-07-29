@@ -2,7 +2,7 @@
     <schema id="com.ubuntu.touch.phone" path="/com/ubuntu/touch/phone/">
         <key name="sim-names" type="a{ss}">
             <_summary>Name per modem path</_summary>
-            <default>{}</default>
+            <default>{"/ril_0": "SIM 1", "/ril_1": "SIM 2"}</default>
             <_description>Mapping of sim names to modem paths.</_description>
         </key>
         <key name="default-sim-for-calls" type="s">
