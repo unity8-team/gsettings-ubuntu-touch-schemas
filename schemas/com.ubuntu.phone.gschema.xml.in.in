@@ -3,7 +3,7 @@
         <key name="sim-names" type="a{ss}">
             <_summary>Name per modem path</_summary>
             <default>{}</default>
-            <_description>Mapping of sim names to modem paths.</_description>
+            <_description>Mapping of modem paths to SIM names.</_description>
         </key>
         <key name="default-sim-for-calls" type="s">
             <default>"ask"</default>
