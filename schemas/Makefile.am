@@ -1,4 +1,5 @@
-desktop_gschemas_in_in = \ 
+desktop_gschemas_in_in = \
+	com.ubuntu.phone.gschema.xml.in.in         \
 	com.ubuntu.touch.network.gschema.xml.in.in \
 	com.ubuntu.touch.sound.gschema.xml.in.in   \
 	com.ubuntu.touch.system.gschema.xml.in.in  \
@@ -19,7 +20,7 @@ gsettings_SCHEMAS = $(desktop_gschemas_in:.xml.in=.xml)
 @GSETTINGS_RULES@
 
 EXTRA_DIST =				\
-	$(desktop_gschemas_in_in)	
+	$(desktop_gschemas_in_in)
 
 CLEANFILES =					\
 	$(gsettings_SCHEMAS)			\

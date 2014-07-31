@@ -1,0 +1,17 @@
+<schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
+    <schema id="com.ubuntu.phone" path="/com/ubuntu/phone/">
+        <key name="sim-names" type="a{ss}">
+            <_summary>Name per modem path</_summary>
+            <default>{}</default>
+            <_description>Mapping of modem paths to SIM names.</_description>
+        </key>
+        <key name="default-sim-for-calls" type="s">
+            <default>"ask"</default>
+            <_description>Default sim card to use for calls, defined by a modem path or "ask".</_description>
+        </key>
+        <key name="default-sim-for-messages" type="s">
+            <default>"ask"</default>
+            <_description>Default sim card to use for messages, defined by a modem path or "ask".</_description>
+        </key>
+    </schema>
+</schemalist>
