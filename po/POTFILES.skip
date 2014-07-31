@@ -1,8 +1,8 @@
 # List of source files containing translatable strings that should not be
 # translated.
 # Please keep this file sorted alphabetically.
+schemas/com.ubuntu.phone.gschema.xml.in
 schemas/com.ubuntu.touch.network.gschema.xml.in
-schemas/com.ubuntu.touch.phone.gschema.xml.in
 schemas/com.ubuntu.touch.sound.gschema.xml.in
 schemas/com.ubuntu.touch.system.gschema.xml.in
 schemas/com.ubuntu.sound.gschema.xml.in

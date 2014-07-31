@@ -1,5 +1,5 @@
 <schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
-    <schema id="com.ubuntu.touch.phone" path="/com/ubuntu/touch/phone/">
+    <schema id="com.ubuntu.phone" path="/com/ubuntu/phone/">
         <key name="sim-names" type="a{ss}">
             <_summary>Name per modem path</_summary>
             <default>{}</default>
