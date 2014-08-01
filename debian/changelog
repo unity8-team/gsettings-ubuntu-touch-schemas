@@ -1,3 +1,11 @@
+gsettings-ubuntu-touch-schemas (0.0.2+14.10.20140731-0ubuntu1) utopic; urgency=low
+
+  [ jonas-drange ]
+  * [touch/phone] add new schema for phone settings, populated with sim
+    name and default settings
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 31 Jul 2014 15:54:50 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.2+14.10.20140708-0ubuntu1) utopic; urgency=medium
 
   [ Michael Terry ]
