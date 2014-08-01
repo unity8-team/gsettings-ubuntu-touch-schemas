@@ -1,6 +1,6 @@
 <schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
-    <schema id="com.ubuntu.touch.notifications" path="/com/ubuntu/touch/notifications/">
-		<key name="popup-blacklist" type="a(ss)">
+    <schema id="com.ubuntu.postal.notifications" path="/com/ubuntu/postal/notifications/">
+		<key name="blacklist" type="a(ss)">
 			<_summary>User blacklist of application notifications</_summary>
 			<default>[]</default>
 			<_description>
