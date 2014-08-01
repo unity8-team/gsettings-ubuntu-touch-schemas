@@ -1,5 +1,5 @@
 <schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
-    <schema id="com.ubuntu.postal.notifications" path="/com/ubuntu/postal/notifications/">
+    <schema id="com.ubuntu.notifications.hub" path="/com/ubuntu/notifications/hub/">
 		<key name="blacklist" type="a(ss)">
 			<_summary>User blacklist of application notifications</_summary>
 			<default>[]</default>
