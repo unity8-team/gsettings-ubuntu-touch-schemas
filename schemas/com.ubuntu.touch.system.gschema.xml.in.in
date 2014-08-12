@@ -8,6 +8,13 @@
       <value value="5" nick="InvertedPortraitOrientation"/>
     </enum>
     <schema id="com.ubuntu.touch.system" path="/com/ubuntu/touch/system/">
+    <key name="rotation-lock" type="b">
+      <default>false</default>
+      <_summary>Lock rotation</_summary>
+      <_description>
+    Deprecated.
+      </_description>
+    </key>
     <key name="orientation-lock" enum="com.ubuntu.system.ScreenOrientation">
       <default>"none"</default>
       <_summary>Orientation lock</_summary>
