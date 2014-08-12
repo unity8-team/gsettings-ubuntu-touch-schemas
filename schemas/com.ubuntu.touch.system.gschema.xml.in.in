@@ -1,4 +1,11 @@
 <schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
+    <enum id="com.ubuntu.system.OrientationLock">
+      <value value="0" nick="none"/>
+      <value value="1" nick="rotate0"/>
+      <value value="2" nick="rotate90"/>
+      <value value="3" nick="rotate180"/>
+      <value value="4" nick="rotate270"/>
+    </enum>
     <schema id="com.ubuntu.touch.system" path="/com/ubuntu/touch/system/">
     <key name="rotation-lock" type="b">
       <default>false</default>
@@ -14,6 +21,11 @@
     Whether the device should adjust brightness automatically based on ambient
     light levels.
       </_description>
+    </key>
+    <key name="orientation-lock" enum="com.ubuntu.system.OrientationLock">
+      <default>"none"</default>
+      <_summary>Orientation lock</_summary>
+      <_description>Locks orientation to a specific value.</_description>
     </key>
   </schema>
 </schemalist>
