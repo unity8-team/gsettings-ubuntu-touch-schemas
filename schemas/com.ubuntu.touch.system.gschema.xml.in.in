@@ -1,5 +1,5 @@
 <schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
-    <enum id="com.ubuntu.system.OrientationLock">
+    <enum id="com.ubuntu.system.ScreenOrientation">
       <value value="0" nick="none"/>
       <value value="1" nick="PrimaryOrientation"/>
       <value value="2" nick="LandscapeOrientation"/>
@@ -8,7 +8,7 @@
       <value value="5" nick="InvertedPortraitOrientation"/>
     </enum>
     <schema id="com.ubuntu.touch.system" path="/com/ubuntu/touch/system/">
-    <key name="orientation-lock" enum="com.ubuntu.system.OrientationLock">
+    <key name="orientation-lock" enum="com.ubuntu.system.ScreenOrientation">
       <default>"none"</default>
       <_summary>Orientation lock</_summary>
       <_description>Locks orientation to a specific value.</_description>
