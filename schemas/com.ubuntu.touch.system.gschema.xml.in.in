@@ -1,11 +1,24 @@
 <schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
+    <enum id="com.ubuntu.system.ScreenOrientation">
+      <value value="0" nick="none"/>
+      <value value="1" nick="PrimaryOrientation"/>
+      <value value="2" nick="LandscapeOrientation"/>
+      <value value="3" nick="PortraitOrientation"/>
+      <value value="4" nick="InvertedLandscapeOrientation"/>
+      <value value="5" nick="InvertedPortraitOrientation"/>
+    </enum>
     <schema id="com.ubuntu.touch.system" path="/com/ubuntu/touch/system/">
     <key name="rotation-lock" type="b">
       <default>false</default>
       <_summary>Lock rotation</_summary>
       <_description>
-	Whether the device should change orientation when it is rotated.
+    Deprecated.
       </_description>
+    </key>
+    <key name="orientation-lock" enum="com.ubuntu.system.ScreenOrientation">
+      <default>"none"</default>
+      <_summary>Orientation lock</_summary>
+      <_description>Locks orientation to a specific value.</_description>
     </key>
     <key name="auto-brightness" type="b">
       <default>false</default>
