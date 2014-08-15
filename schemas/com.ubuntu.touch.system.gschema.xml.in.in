@@ -28,5 +28,15 @@
     light levels.
       </_description>
     </key>
+    <key name="activity-timeout" type="u">
+      <range min="0" max="3600"/>
+      <default>60</default>
+      <summary>Timeout in seconds for turning off the screen if there is no user activity. A value of 0 disables it.</summary>
+    </key>
+    <key name="dim-timeout" type="u">
+      <range min="0" max="3600"/>
+      <default>45</default>
+      <summary>Timeout in seconds for dimming the screen if there is no user activity. A value of 0 disables auto-dimming.</summary>
+    </key>
   </schema>
 </schemalist>
