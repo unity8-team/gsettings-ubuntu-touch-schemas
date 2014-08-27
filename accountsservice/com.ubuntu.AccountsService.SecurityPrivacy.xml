@@ -7,9 +7,17 @@
                 value="com.ubuntu.AccountsService.GreeterReadAny"/>
 
     <!-- 0: Keyboard password prompt (traditional entry)
-         1: Numeric password prompt (like a PIN pad) -->
+         1: 4-digit numeric password prompt (like a PIN pad) -->
     <property name="PasswordDisplayHint" type="i" access="readwrite">
       <annotation name="org.freedesktop.Accounts.DefaultValue" value="0"/>
+    </property>
+
+    <property name="EnableLauncherWhileLocked" type="b" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+    </property>
+
+    <property name="EnableIndicatorsWhileLocked" type="b" access="readwrite">
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
     </property>
 
   </interface>
