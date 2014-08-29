@@ -34,5 +34,9 @@
             <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
         </property>
 
+        <property name="DialpadSoundsEnabled" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+        </property>
+
     </interface>
 </node>
