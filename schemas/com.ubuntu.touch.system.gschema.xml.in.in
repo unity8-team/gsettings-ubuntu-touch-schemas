@@ -20,6 +20,21 @@
       <_summary>Orientation lock</_summary>
       <_description>Locks orientation to a specific value.</_description>
     </key>
+    <key name="brightness" type="i">
+      <default>80</default>
+      <_summary>Brightness level</_summary>
+      <_description>
+    The brightness setting specified by the user.
+      </_description>
+    </key>
+    <key name="brightness-needs-hardware-default" type="b">
+      <default>true</default>
+      <_summary>Brightness hardware default flag.</_summary>
+      <_description>
+    A first-session flag denoting that 'brightness'
+    needs to be initialized to that hardware's default level.
+      </_description>
+    </key>
     <key name="auto-brightness" type="b">
       <default>false</default>
       <_summary>Automatic brightness</_summary>
