@@ -8,7 +8,8 @@
 				For applications that are installed via Click packaging the strings are
 				the name of the package and then the name of the application in the
 				package. For dpkg based applications the first string is empty and the
-				second one is the AppID of the application (the desktop file name).
+				second one is the AppID of the application (the desktop file basename
+				without the .desktop extension).
 			</_description>
 		</key>
     </schema>
