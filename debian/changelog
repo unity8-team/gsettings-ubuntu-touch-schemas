@@ -1,3 +1,10 @@
+gsettings-ubuntu-touch-schemas (0.0.4) UNRELEASED; urgency=medium
+
+  [ Jonas G. Drange]
+  * Added 'OtherVibrate' boolean settings to com.ubuntu.touch.AccountsService.Sound (LP: #1358610) (LP: #1391877)
+
+ -- Jonas G. Drange <jonas.drange@canonical.com>  Tue, 06 Jan 2015 15:06:09 +0100
+
 gsettings-ubuntu-touch-schemas (0.0.3+14.10.20140912-0ubuntu1) utopic; urgency=low
 
   [ Charles Kerr ]
