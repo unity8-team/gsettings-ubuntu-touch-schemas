@@ -1,3 +1,10 @@
+gsettings-ubuntu-touch-schemas (0.0.3+15.04.20150130-0ubuntu1) vivid; urgency=low
+
+  [ Tiago Salem Herrmann ]
+  * Add MMS group chat option. (LP: #1415458)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 30 Jan 2015 16:20:32 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.3+14.10.20140912-0ubuntu1) utopic; urgency=low
 
   [ Charles Kerr ]
