@@ -8,7 +8,7 @@
     </property>
 
     <property name="MessagesWelcomeScreen" type="b" access="readwrite">
-      <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+      <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
     </property>
 
   </interface>
