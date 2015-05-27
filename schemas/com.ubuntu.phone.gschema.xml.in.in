@@ -14,7 +14,7 @@
             <_description>Default sim card to use for messages, defined by a modem path or "ask".</_description>
         </key>
         <key name="mms-group-chat-enabled" type="b">
-            <default>false</default>
+            <default>true</default>
             <_description>Enable sending group chat messages over MMS.</_description>
         </key>
     </schema>
