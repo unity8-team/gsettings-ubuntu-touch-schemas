@@ -1,3 +1,10 @@
+gsettings-ubuntu-touch-schemas (0.0.4+15.04.20150527-0ubuntu1) vivid; urgency=medium
+
+  [ Tiago Salem Herrmann ]
+  * Enable mms group chat by default (LP: #1415458)
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Wed, 27 May 2015 17:33:40 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.4+15.04.20150211-0ubuntu1) vivid; urgency=medium
 
   [ Ken VanDine ]
