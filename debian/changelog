@@ -1,3 +1,11 @@
+gsettings-ubuntu-touch-schemas (0.0.4+15.10.20150608-0ubuntu1) wily; urgency=medium
+
+  [ Tiago Salem Herrmann ]
+  * Disable MMS group chat by default as it makes group chat messages
+    fail for most European users.
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Mon, 08 Jun 2015 15:25:08 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.4+15.04.20150527-0ubuntu1) vivid; urgency=medium
 
   [ Tiago Salem Herrmann ]
