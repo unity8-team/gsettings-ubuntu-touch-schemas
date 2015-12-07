@@ -1,0 +1,26 @@
+<node>
+    <interface name="com.ubuntu.touch.AccountsService.Phone">
+
+        <annotation name="org.freedesktop.Accounts.VendorExtension" value="true"/>
+
+        <annotation name="org.freedesktop.Accounts.Authentication.ChangeOwn"
+                    value="com.ubuntu.AccountsService.PhoneChangeAny"/>
+
+        <property name="DefaultSimForCalls" type="s" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue.String" value=""/>
+        </property>
+
+        <property name="DefaultSimForMessages" type="s" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue.String" value=""/>
+        </property>
+
+        <property name="MmsGroupChatEnabled" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
+        </property>
+
+        <property name="SimNames" type="a{ss}" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="@a{ss} {}"/>
+        </property>
+
+    </interface>
+</node>
