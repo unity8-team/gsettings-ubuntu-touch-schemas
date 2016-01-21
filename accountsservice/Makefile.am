@@ -5,6 +5,7 @@ policydir = $(datadir)/polkit-1/actions
 dist_policy_DATA = com.ubuntu.AccountsService.policy
 
 accountsservice_schemas = \
+	com.ubuntu.AccountsService.Input.xml \
 	com.ubuntu.AccountsService.SecurityPrivacy.xml \
 	com.ubuntu.AccountsService.Sound.xml \
 	com.ubuntu.touch.AccountsService.SecurityPrivacy.xml \
