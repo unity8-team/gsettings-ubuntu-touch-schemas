@@ -1,8 +1,12 @@
-gsettings-ubuntu-touch-schemas (0.0.5) UNRELEASED; urgency=medium
+gsettings-ubuntu-touch-schemas (0.0.5+16.04.20160128.1-0ubuntu1) xenial; urgency=medium
 
+  [ Michael Terry ]
   * Add com.ubuntu.AccountsService.Input schema
 
- -- Michael Terry <mterry@ubuntu.com>  Thu, 21 Jan 2016 10:44:26 -0600
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- Michał Sawicz <michal.sawicz@canonical.com>  Thu, 28 Jan 2016 18:28:36 +0000
 
 gsettings-ubuntu-touch-schemas (0.0.4+15.10.20150608-0ubuntu1) wily; urgency=medium
 
