@@ -1,0 +1,66 @@
+<node>
+    <interface name="com.ubuntu.AccountsService.Input">
+
+        <annotation name="org.freedesktop.Accounts.VendorExtension" value="true"/>
+
+        <annotation name="org.freedesktop.Accounts.Authentication.ReadAny"
+                    value="com.ubuntu.AccountsService.GreeterReadAny"/>
+
+        <!-- "left" or "right" -->
+        <property name="MousePrimaryButton" type="s" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="left"/>
+        </property>
+
+        <!-- 0 to 1 -->
+        <property name="MouseCursorSpeed" type="d" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="0.75"/>
+        </property>
+
+        <!-- 0 to 1 -->
+        <property name="MouseScrollSpeed" type="d" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="0.5"/>
+        </property>
+
+        <!-- in milliseconds -->
+        <property name="MouseDoubleClickSpeed" type="i" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="100"/>
+        </property>
+
+        <!-- "left" or "right" -->
+        <property name="TouchpadPrimaryButton" type="s" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="left"/>
+        </property>
+
+        <!-- 0 to 1 -->
+        <property name="TouchpadCursorSpeed" type="d" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="0.75"/>
+        </property>
+
+        <!-- 0 to 1 -->
+        <property name="TouchpadScrollSpeed" type="d" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="0.5"/>
+        </property>
+
+        <!-- in milliseconds -->
+        <property name="TouchpadDoubleClickSpeed" type="i" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="100"/>
+        </property>
+
+        <property name="TouchpadDisableWhileTyping" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
+        </property>
+
+        <property name="TouchpadTapToClick" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
+        </property>
+
+        <property name="TouchpadTwoFingerScroll" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
+        </property>
+
+        <property name="TouchpadDisableWithMouse" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+        </property>
+
+    </interface>
+</node>
