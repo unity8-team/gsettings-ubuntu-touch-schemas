@@ -62,5 +62,45 @@
             <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
         </property>
 
+        <!-- Show all installed input sources -->
+        <property name="InputSourcesShowAll" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
+        </property>
+
+        <!-- Use different input sources for each window -->
+        <property name="InputSourcesPerWindow" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
+        </property>
+
+        <!-- Cursor Blink -->
+        <property name="CursorBlink" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+        </property>
+
+        <!-- Cursor Blink Time, 100 to 2500 -->
+        <property name="CursorBlinkTime" type="i" access="readwrite">
+                <annotation name="org.freedesktop.Accounts.DefaultValue" value="1200"/>
+        </property>
+
+        <!-- Cursor Blink Timeout, 1 to 2147483647 -->
+        <property name="CursorBlinkTimeout" type="i" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="10"/>
+        </property>
+
+        <!-- Keyboard repeat -->
+        <property name="KeyboardRepeat" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+        </property>
+
+        <!-- Key Repeat Interval -->
+        <property name="KeyboardRepeatInterval" type="u" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="30"/>
+        </property>
+
+        <!-- Initial Key Repeat Delay -->
+        <property name="KeyboardDelay" type="u" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="500"/>
+        </property>
+
     </interface>
 </node>
