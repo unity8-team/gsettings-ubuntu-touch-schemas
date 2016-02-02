@@ -1,3 +1,10 @@
+gsettings-ubuntu-touch-schemas (0.0.6+16.04.20160202-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Jonas G. Drange ]
+  * Append hardware keyboard settings to com.ubuntu.AccountsService.Input schema
+
+ -- Jonas G. Drange <jonas.drange@canonical.com>  Tue, 2 Feb 2016 17:07:36 +0100
+
 gsettings-ubuntu-touch-schemas (0.0.5+16.04.20160128.1-0ubuntu1) xenial; urgency=medium
 
   [ Michael Terry ]
