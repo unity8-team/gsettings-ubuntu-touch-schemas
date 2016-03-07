@@ -18,5 +18,10 @@
             <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
         </property>
 
+	<property name="LastRunningPlayer" type="s" access="readwrite">
+             <annotation name="org.freedesktop.Accounts.DefaultValue.String" 
+                value=""/>
+        </property>
+
     </interface>
 </node>
