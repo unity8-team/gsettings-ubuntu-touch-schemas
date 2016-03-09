@@ -1,4 +1,4 @@
-gsettings-ubuntu-touch-schemas (0.0.5+16.04.20160225.1-0ubuntu1) UNRELEASED; urgency=medium
+gsettings-ubuntu-touch-schemas (0.0.6+16.04.20160309.1-0ubuntu1) UNRELEASED; urgency=medium
 
   * Add Phone settings to accounts-service
 
