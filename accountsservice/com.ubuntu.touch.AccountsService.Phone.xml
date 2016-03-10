@@ -3,9 +3,6 @@
 
         <annotation name="org.freedesktop.Accounts.VendorExtension" value="true"/>
 
-        <annotation name="org.freedesktop.Accounts.Authentication.ChangeOwn"
-                    value="com.ubuntu.AccountsService.PhoneChangeAny"/>
-
         <property name="DefaultSimForCalls" type="s" access="readwrite">
             <annotation name="org.freedesktop.Accounts.DefaultValue.String" value=""/>
         </property>
