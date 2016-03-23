@@ -1,8 +1,12 @@
-gsettings-ubuntu-touch-schemas (0.0.6+16.04.20160309.1-0ubuntu1) UNRELEASED; urgency=medium
+gsettings-ubuntu-touch-schemas (0.0.6+16.04.20160323.1-0ubuntu1) xenial; urgency=medium
 
+  [ Alfonso Sanchez-Beato (email Canonical) ]
   * Add Phone settings to accounts-service
 
- -- Alfonso Sanchez-Beato (email Canonical) <alfonso.sanchez-beato@canonical.com>  Thu, 25 Feb 2016 12:49:21 +0100
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- Alfonso Sanchez-Beato <alfonso.sanchez-beato@canonical.com>  Wed, 23 Mar 2016 19:29:12 +0000
 
 gsettings-ubuntu-touch-schemas (0.0.5+16.04.20160307-0ubuntu1) xenial; urgency=medium
 
