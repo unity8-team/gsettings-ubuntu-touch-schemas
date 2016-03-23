@@ -4,6 +4,14 @@ gsettings-ubuntu-touch-schemas (0.0.6+16.04.20160309.1-0ubuntu1) UNRELEASED; urg
 
  -- Alfonso Sanchez-Beato (email Canonical) <alfonso.sanchez-beato@canonical.com>  Thu, 25 Feb 2016 12:49:21 +0100
 
+gsettings-ubuntu-touch-schemas (0.0.5+16.04.20160307-0ubuntu1) xenial; urgency=medium
+
+  [ Xavi Garcia Mena ]
+  * Added new property LastRunningPlayer to store which was the last
+    running music player.
+
+ -- Xavi Garcia <xavi.garcia.mena@canonical.com>  Mon, 07 Mar 2016 10:12:42 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.5+16.04.20160128.1-0ubuntu1) xenial; urgency=medium
 
   [ Michael Terry ]
