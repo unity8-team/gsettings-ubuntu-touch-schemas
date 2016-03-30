@@ -1,3 +1,10 @@
+gsettings-ubuntu-touch-schemas (0.0.6+16.04.20160330-0ubuntu1) UNRELEASED; urgency=medium
+
+  [ Jonas G. Drange ]
+  * Add EnableFingerprintIdentification to security schema
+
+ -- Jonas G. Drange <jonas.drange@canonical.com>  Wed, 30 Mar 2016 17:07:29 +0200
+
 gsettings-ubuntu-touch-schemas (0.0.5+16.04.20160307-0ubuntu1) xenial; urgency=medium
 
   [ Xavi Garcia Mena ]
