@@ -8,7 +8,7 @@
 
         <!-- "left" or "right" -->
         <property name="MousePrimaryButton" type="s" access="readwrite">
-            <annotation name="org.freedesktop.Accounts.DefaultValue" value="left"/>
+            <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="left"/>
         </property>
 
         <!-- 0 to 1 -->
@@ -28,7 +28,7 @@
 
         <!-- "left" or "right" -->
         <property name="TouchpadPrimaryButton" type="s" access="readwrite">
-            <annotation name="org.freedesktop.Accounts.DefaultValue" value="left"/>
+            <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="left"/>
         </property>
 
         <!-- 0 to 1 -->
