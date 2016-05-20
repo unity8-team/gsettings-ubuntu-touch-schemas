@@ -1,6 +1,7 @@
 # List of source files containing translatable strings.
 # Please keep this list in alphabetic order.
 schemas/com.ubuntu.notifications.hub.gschema.xml.in.in
+schemas/com.ubuntu.notifications.settings.gschema.xml.in.in
 schemas/com.ubuntu.phone.gschema.xml.in.in
 schemas/com.ubuntu.sound.gschema.xml.in.in
 schemas/com.ubuntu.touch.network.gschema.xml.in.in
