@@ -1,5 +1,6 @@
 desktop_gschemas_in_in = \ 
 	com.ubuntu.notifications.hub.gschema.xml.in.in \
+	com.ubuntu.notifications.settings.gschema.xml.in.in \
 	com.ubuntu.phone.gschema.xml.in.in         \
 	com.ubuntu.sound.gschema.xml.in.in         \
 	com.ubuntu.touch.network.gschema.xml.in.in \
