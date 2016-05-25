@@ -1,4 +1,14 @@
 <schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
+    <schema id="com.ubuntu.notifications.settings.applications" path="/com/ubuntu/NotificationSettings/applications/">
+        <key type="as" name="applications">
+            <default>[]</default>
+            <_summary>Applications</_summary>
+            <_description>
+                List of all applications registered for using notifications.
+            </_description>
+        </key>
+    </schema>
+
     <schema id="com.ubuntu.notifications.settings">
         <key name='enable-notifications' type='b'>
             <default>true</default>
