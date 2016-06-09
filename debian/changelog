@@ -1,9 +1,27 @@
+gsettings-ubuntu-touch-schemas (0.0.6+16.04.20160414-0ubuntu1) xenial; urgency=medium
+
+  [ Michael Terry ]
+  * Fix DefaultValue settings for MousePrimaryButton and
+    TouchpadPrimaryButton.
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Thu, 14 Apr 2016 13:09:42 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.6+16.04.20160330-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonas G. Drange ]
   * Add EnableFingerprintIdentification to security schema
 
  -- Jonas G. Drange <jonas.drange@canonical.com>  Wed, 30 Mar 2016 17:07:29 +0200
+
+gsettings-ubuntu-touch-schemas (0.0.6+16.04.20160323.1-0ubuntu1) xenial; urgency=medium
+
+  [ Alfonso Sanchez-Beato (email Canonical) ]
+  * Add Phone settings to accounts-service
+
+  [ CI Train Bot ]
+  * No-change rebuild.
+
+ -- Alfonso Sanchez-Beato <alfonso.sanchez-beato@canonical.com>  Wed, 23 Mar 2016 19:29:12 +0000
 
 gsettings-ubuntu-touch-schemas (0.0.5+16.04.20160307-0ubuntu1) xenial; urgency=medium
 
