@@ -1,9 +1,10 @@
 gsettings-ubuntu-touch-schemas (0.0.7+16.04.20160609-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonas G. Drange ]
-  * Add EnableFingerprintIdentification to security schema
+  * Add EnableFingerprintIdentification to security accounts-service schema
+  * Add fingerprint-names to system gsettings schema
 
- -- Jonas G. Drange <jonas.drange@canonical.com>  Wed, 30 Mar 2016 17:07:29 +0200
+ -- Jonas G. Drange <jonas.drange@canonical.com>  Wed, 14 June 2016 11:58:29 +0200
 
 gsettings-ubuntu-touch-schemas (0.0.6+16.04.20160414-0ubuntu1) xenial; urgency=medium
 
@@ -213,7 +214,7 @@ gsettings-ubuntu-touch-schemas (0.0.1+14.04.20140130.1-0ubuntu1) trusty; urgency
 
 gsettings-ubuntu-touch-schemas (0.0.1+13.10.20130730-0ubuntu2) saucy; urgency=low
 
-  * Change the default sounds for calls and messages, depends on 
+  * Change the default sounds for calls and messages, depends on
     ubuntu-touch-sounds so we are sure users get the files with the defaults
 
  -- Sebastien Bacher <seb128@ubuntu.com>  Mon, 14 Oct 2013 16:36:03 +0200
