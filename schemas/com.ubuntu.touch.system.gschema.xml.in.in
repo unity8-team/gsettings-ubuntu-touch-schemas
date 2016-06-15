@@ -53,5 +53,10 @@
       <default>45</default>
       <summary>Timeout in seconds for dimming the screen if there is no user activity. A value of 0 disables auto-dimming.</summary>
     </key>
+    <key name="fingerprint-names" type="a{ss}">
+        <_summary>Fingerprint names</_summary>
+        <default>{}</default>
+        <_description>Mapping of unique fingerprint ids to names set by the user.</_description>
+    </key>
   </schema>
 </schemalist>
