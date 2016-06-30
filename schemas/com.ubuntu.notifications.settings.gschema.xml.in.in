@@ -1,10 +1,17 @@
 <schemalist gettext-domain="gsettings-ubuntu-touch-schemas">
     <schema id="com.ubuntu.notifications.settings.applications" path="/com/ubuntu/NotificationSettings/applications/">
-        <key type="as" name="applications">
+        <key name='applications' type='as'>
             <default>[]</default>
             <_summary>Applications</_summary>
             <_description>
                 List of all applications registered for using notifications.
+            </_description>
+        </key>
+        <key name='vibrate-silent-mode' type='b'>
+            <default>true</default>
+            <_summary>Should Vibrate When in Silent Mode</_summary>
+            <_description>
+                Defines if applications can use vibrations to notify when system is in silent mode.
             </_description>
         </key>
     </schema>
