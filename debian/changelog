@@ -1,3 +1,11 @@
+gsettings-ubuntu-touch-schemas (0.0.7+16.10.20160701-0ubuntu1) yakkety; urgency=medium
+
+  [ Arthur Mello ]
+  * Add new gsettings schema to support new notifications options from
+    Ubuntu System Settings
+
+ -- Arthur Renato Mello <arthur.mello@canonical.com>  Fri, 01 Jul 2016 17:29:36 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.7+16.10.20160615.1-0ubuntu1) yakkety; urgency=medium
 
   Jonas G. Drange
