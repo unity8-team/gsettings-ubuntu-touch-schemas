@@ -51,11 +51,11 @@
         </property>
 
         <property name="TouchpadTapToClick" type="b" access="readwrite">
-            <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
         </property>
 
         <property name="TouchpadTwoFingerScroll" type="b" access="readwrite">
-            <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
         </property>
 
         <property name="TouchpadDisableWithMouse" type="b" access="readwrite">
