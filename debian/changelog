@@ -1,3 +1,11 @@
+gsettings-ubuntu-touch-schemas (0.0.7+16.10.20160725-0ubuntu1) yakkety; urgency=medium
+
+  [ Lukáš Tinkl ]
+  * Enable TouchpadTwoFingerScroll and TouchpadTapToClick by default
+    (LP: #1603183, #1604032)
+
+ -- Michael Terry <michael.terry@canonical.com>  Mon, 25 Jul 2016 18:09:18 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.7+16.10.20160701-0ubuntu1) yakkety; urgency=medium
 
   [ Arthur Mello ]
