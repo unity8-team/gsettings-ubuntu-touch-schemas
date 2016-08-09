@@ -16,9 +16,8 @@
             <annotation name="org.freedesktop.Accounts.DefaultValue" value="0.75"/>
         </property>
 
-        <!-- 0 to 1 -->
         <property name="MouseScrollSpeed" type="d" access="readwrite">
-            <annotation name="org.freedesktop.Accounts.DefaultValue" value="0.5"/>
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="1.0"/>
         </property>
 
         <!-- in milliseconds -->
@@ -36,9 +35,8 @@
             <annotation name="org.freedesktop.Accounts.DefaultValue" value="0.75"/>
         </property>
 
-        <!-- 0 to 1 -->
         <property name="TouchpadScrollSpeed" type="d" access="readwrite">
-            <annotation name="org.freedesktop.Accounts.DefaultValue" value="0.5"/>
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="1.0"/>
         </property>
 
         <!-- in milliseconds -->
