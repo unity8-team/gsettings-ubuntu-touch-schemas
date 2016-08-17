@@ -22,6 +22,7 @@
             <_summary>Notifications Enabled</_summary>
             <_description>
                 Defines if application can use any supported notification type.
+                If enabled application will show messages in the Notification List.
                 This option has precedence over others options.
             </_description>
         </key>
@@ -44,13 +45,6 @@
             <_summary>Bubbles Notifications Enabled</_summary>
             <_description>
                 Defines if application can use Notification Bubbles to notify users.
-            </_description>
-        </key>
-        <key name='use-list-notifications' type='b'>
-            <default>true</default>
-            <_summary>List Notifications Enabled</_summary>
-            <_description>
-                Defines if application can show messages in the Notification List.
             </_description>
         </key>
     </schema>
