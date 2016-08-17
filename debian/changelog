@@ -1,3 +1,10 @@
+gsettings-ubuntu-touch-schemas (0.0.7+16.10.20160817-0ubuntu1) yakkety; urgency=medium
+
+  [ Arthur Mello ]
+  * Remove property to control if application can use Notification list
+
+ -- Timo Jyrinki <timo.jyrinki@canonical.com>  Wed, 17 Aug 2016 12:12:09 +0000
+
 gsettings-ubuntu-touch-schemas (0.0.7+16.10.20160809-0ubuntu1) yakkety; urgency=medium
 
   [ Daniel van Vugt ]
