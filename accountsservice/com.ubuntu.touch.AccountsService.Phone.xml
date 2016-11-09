@@ -11,6 +11,10 @@
             <annotation name="org.freedesktop.Accounts.DefaultValue.String" value="ask"/>
         </property>
 
+        <property name="MmsEnabled" type="b" access="readwrite">
+            <annotation name="org.freedesktop.Accounts.DefaultValue" value="true"/>
+        </property>
+
         <property name="MmsGroupChatEnabled" type="b" access="readwrite">
             <annotation name="org.freedesktop.Accounts.DefaultValue" value="false"/>
         </property>
